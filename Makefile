@@ -5,7 +5,6 @@ all:
 			$(MAKE) all -C ./ft_printf
 			$(CC) $(CFLAGS) -c ft_client.c
 			$(CC) $(CFLAGS) -o client ft_client.o ./ft_printf/libftprintf.a
-			$(MAKE) all -C ./ft_printf
 			$(CC) $(CFLAGS) -c ft_server.c
 			$(CC) $(CFLAGS) -o server ft_server.o ./ft_printf/libftprintf.a
 			
